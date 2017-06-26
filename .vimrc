@@ -9,3 +9,5 @@ set number
 
 inoremap jk <ESC>
 
+" Highlight searches
+set hlsearch
