@@ -7,7 +7,22 @@ set shiftwidth=4
 set expandtab
 set number
 
-inoremap jk <ESC>
-
-" Highlight searches
+" Highlights searches
 set hlsearch
+inoremap jk <ESC>
+set spell spelllang=en_us
+set nospell
+
+vnoremap . :norm.<CR>
+" maps the leader to be \
+let mapleader = "\<Space>"
+nnoremap <leader>v V']
+nnoremap <leader>w <C-w>v<C-w>l
+
+
+" set paste options
+" toggles set paste through F5
+:set pastetoggle=<F5>
+" sets <leader>p to paste from clipboard, and <leader>P to to paste from other vim bufffer
+nnoremap <leader>p "+p
+nnoremap <leader>P "*P
