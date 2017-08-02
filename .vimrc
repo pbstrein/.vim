@@ -43,3 +43,7 @@ nmap <CR> o <ESC>
 
 " delete character forward in insert mode
 inoremap <C-d> <Del> 
+
+" help searches between upper and lowercase
+set ignorecase
+set smartcase
