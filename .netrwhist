@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/users/guest/p/pbstrein/CSClasses/CS324'
+let g:netrw_dirhist_2='/users/guest/p/pbstrein/CSClasses/CS324/proxylab'
+let g:netrw_dirhist_3='/users/guest/p/pbstrein/CSClasses/CS324/proxylab/proxylab-handout'
+let g:netrw_dirhist_4='/users/guest/p/pbstrein/CSClasses/CS324/proxylab/proxylab-handout/tiny'
+let g:netrw_dirhist_5='/users/guest/p/pbstrein/CSClasses/CS324/proxylab/proxylab-handout'
+let g:netrw_dirhist_6='/users/guest/p/pbstrein/CSClasses/CS324/proxylab'
+let g:netrw_dirhist_7='/users/guest/p/pbstrein/CSClasses/CS324'
+let g:netrw_dirhist_8='/users/guest/p/pbstrein/CSClasses/CS324/hw6'
+let g:netrw_dirhist_9='/users/guest/p/pbstrein/CSClasses/CS324/proxylab/proxylab-handout'
