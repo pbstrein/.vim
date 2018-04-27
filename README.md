@@ -18,4 +18,9 @@ Then use CTRL + ] to go to a function defination.
 
 - git-open - copy the git-open script to any file in path, ie /usr/local/bin
 
+1. Run the "linux-setup.sh"
+
 # Windows Setup
+
+1. Setup windows git
+2. In windows git bash, run the "windows-setup.sh"
