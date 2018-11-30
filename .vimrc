@@ -81,3 +81,6 @@ inoremap <C-d> <Del>
 " help searches between upper and lowercase
 set ignorecase
 set smartcase
+
+" turn on syntax highlighting for python
+syntax on
