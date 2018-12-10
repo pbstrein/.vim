@@ -51,3 +51,8 @@ set smartcase
 
 " has the syntax on for python
 syntax on
+
+" have regular tab completion when opening files like unix
+set wildmode=longest,list,full
+set wildmenu
+
