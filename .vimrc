@@ -65,6 +65,14 @@ nnoremap <leader>w <C-w>v<C-w>l
 nnoremap <leader>p "+p
 nnoremap <leader>P "*P
 
+" sets <leader>y to copy from vim to clipboard on Linux and <leader>Y on
+" Windows
+" to use this in linux, install vim-gtk first on Ubuntu, or vim-X11 on Fedora
+" and run vimx
+noremap <Leader>y "+y
+noremap <Leader>Y "*y
+
+
 " switching buffer options - came from practical vim
 nnoremap <silent> [b :bprevious<CR>
 nnoremap <silent> ]b :bnext<CR>
