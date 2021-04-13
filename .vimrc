@@ -92,3 +92,6 @@ set smartcase
 
 " turn on syntax highlighting for python
 syntax on
+
+" for WSL, turn off the bell sound
+set visualbell
