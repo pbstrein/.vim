@@ -70,3 +70,5 @@ endfunction
 
 noremap <leader><Tab> :call SwitchBuffer()<CR>
 
+" if on WSL, turn off annoying bell sound
+set visualbell
