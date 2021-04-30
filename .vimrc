@@ -93,5 +93,18 @@ set smartcase
 " turn on syntax highlighting for python
 syntax on
 
+" have regular tab completion when opening files like unix
+set wildmode=longest,list,full
+set wildmenu
+
+colorscheme desert
+
+" switch buffers by pressing tab
+function SwitchBuffer()
+    b# " switches to the most recent buffer
+endfunction
+
+noremap <leader><Tab> :call SwitchBuffer()<CR>
+
 " for WSL, turn off the bell sound
 set visualbell
